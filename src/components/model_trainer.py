@@ -38,12 +38,12 @@ class ModelTrainer:
 
             models = {
                 "Random Forest": RandomForestRegressor(),
-                "Decision Tree": DecisionTreeRegressor(),  # Fixed typo
+                "Decision Tree": DecisionTreeRegressor(),
                 "Gradient Boosting": GradientBoostingRegressor(),
                 "Linear Regression": LinearRegression(),
                 "K-Neighbors Regressor": KNeighborsRegressor(),
                 "XGBRegressor": XGBRegressor(),
-                "CatBoost Regressor": CatBoostRegressor(silent=True),  # Add parameters as needed
+                "CatBoost Regressor": CatBoostRegressor(silent=True),
                 "AdaBoost Regressor": AdaBoostRegressor(),
             }
 
